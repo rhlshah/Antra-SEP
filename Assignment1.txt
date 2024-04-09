@@ -1,0 +1,40 @@
+1) A person’s telephone number  --> string
+   A person’s height --> float
+   A person’s age  --> int
+   A person’s gender (Male, Female, Prefer Not To Answer) --> enum
+   A person’s salary --> decimal
+   A book’s ISBN  --> string
+   A book’s price --> decimal
+   A book’s shipping weight --> float
+   A country’s population --> long
+   The number of stars in the universe --> ulong
+   The number of employees in each of the small or medium businesses in the --> int
+   United Kingdom (up to about 50,000 employees per business)
+   
+   
+ 2) Value type variables directly contain their data, and they are stored in the stack memory. They hold the actual value rather than a reference to the value's location.
+ Reference type variables, on the other hand, store references to the memory location where the data is stored. They are stored in the heap memory, and multiple variables can reference the same object.
+ Boxing is the process of converting a value type variable to a reference type variable. 
+ Unboxing is the process of converting a reference type variable into a value type variable
+ 
+ 3) Managed Resource is any resource that is managed by the Common Language Runtime(CLR)
+ An unmanaged resource, on the other hand, refers to external resources that are not automatically managed by the CLR, 
+ 
+ 4) The purpose of the Garbage Collector (GC) in .NET is to automatically manage memory by reclaiming memory occupied by objects that are no longer in use. 
+ 
+ 
+ Controlling Flow and Converting Types
+ 
+ 1. When you divide an int variable by 0 in C#, it will throw a `DivideByZeroException` at runtime.
+ 2. When you divide a double variable by 0 in C#, it will result in either positive infinity (+∞) or negative infinity (-∞), depending on the sign of the divisor.
+ 3. When you overflow an int variable in C#, it wraps around to the opposite end of its range. For example, if you set an int variable to `int.MaxValue + 1`, it will become `int.MinValue`.
+ 4. `x = y++;` is a post-increment operation, which means that the value of `y` is assigned to `x`, and then `y` is incremented. `x = ++y;` is a pre-increment operation, which means that `y` is incremented first, and then the resulting value is assigned to `x`.
+ 5. `break` is used to exit the loop immediately and continue execution after the loop. `continue` is used to skip the current iteration of the loop and continue with the next iteration. `return` is used to exit the entire method or function containing the loop.
+ 6. The three parts of a for statement are initialization, condition, and iteration. Among them, only the condition part is required.
+ 7. The `=` operator is the assignment operator, used to assign a value to a variable. The `==` operator is the equality operator, used to compare two values for equality.
+ 8. Yes, the provided for statement will compile. It creates an infinite loop because the condition `true` is always true.
+ 9. In a switch expression in C#, the underscore `_` represents a discard pattern, used to match any value that does not match any of the other case patterns.
+ 10. An object must implement the `IEnumerable` or `IEnumerable<T>` interface to be enumerated over by using the foreach statement in C#.
+ 
+ 
+ 

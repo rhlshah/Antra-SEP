@@ -1,0 +1,7 @@
+1) String is used when the content is immutable, StringBuilder is used when you need to dynamically build or manipulate strings
+2) System.Array
+3) Array.Sort(ArrayName)
+4) Array.Length
+5) Yes
+6) System.Array.CopyTo() method copies the elements of an array to another array, starting at a specified index. 
+System.Array.Clone() method creates a shallow copy of the array. It creates a new array with the same length and elements as the original array, but changes to the elements of the original array will not affect the cloned array, and vice versa.
