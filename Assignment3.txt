@@ -1,0 +1,49 @@
+1. The six combinations of access modifier keywords are: public, private, protected, internal, protected internal, and private protected. They control the visibility and accessibility of types and type members within assemblies and between classes.
+
+2. 
+   - Static: Indicates that the member belongs to the type itself rather than to instances of the type.
+   - Const: Defines a constant value that cannot be changed after initialization and is evaluated at compile-time.
+   - Readonly: Specifies that the member can be assigned a value only in the declaration or in a constructor and cannot be modified thereafter.
+
+3. A constructor is a special method that gets called automatically when an instance of a class is created. It initializes the object's state and can be used to perform any necessary setup.
+
+4. The partial keyword allows a class, struct, interface, or method to be split into multiple files. It is useful for organizing large codebases and enabling multiple developers to work on different parts of a class simultaneously.
+
+5. A tuple is a data structure in C# that can hold multiple elements of different types. It allows grouping of heterogeneous data in a single object.
+
+6. The record keyword in C# is used to define immutable data types with value semantics. It automatically generates boilerplate code for equality checks, hash code calculation, and string representation.
+
+7. Overloading refers to defining multiple methods with the same name but different parameter lists in the same class. Overriding occurs when a derived class provides a specific implementation for a method defined in its base class.
+
+8. A field is a variable that belongs to a class and stores data. A property, on the other hand, provides controlled access to a class's fields by encapsulating them within getter and setter methods.
+
+9. Method parameters can be made optional by providing default values for them in the method signature. This allows calling the method without specifying values for optional parameters.
+
+10. An interface is a contract that defines a set of members that implementing classes must implement. It only contains method and property signatures without any implementation. An abstract class, on the other hand, can contain both abstract and non-abstract members and can provide partial implementation.
+
+11. Members of an interface are implicitly public and cannot have any other access modifiers.
+
+12. True. Polymorphism allows derived classes to provide different implementations of the same method through method overriding.
+
+13. True. The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method defined in its base class.
+
+14. False. The new keyword is used to hide a method of the same name and signature from a base class, not to provide its own implementation.
+
+15. False. Abstract methods can only be used in abstract classes and must be implemented by derived classes.
+
+16. True. Normal (non-abstract) methods can be used in an abstract class and can provide default implementations for derived classes.
+
+17. True. Derived classes can override methods that were virtual in the base class.
+
+18. True. Derived classes can override methods that were abstract in the base class.
+
+19. False. In a derived class, you can only override a method that was declared virtual or abstract in the base class.
+
+20. True. A class that implements an interface is not required to provide implementations for all members of the interface if it is declared as abstract.
+
+21. True. A class that implements an interface can have additional members that are not defined in the interface.
+
+22. False. A class can have only one base class in C#.
+
+23. True. A class can implement multiple interfaces in C#.
+
